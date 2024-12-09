@@ -1,0 +1,14 @@
+body{
+    background-color: linear-gradient(to top, white, #427EB3);
+}
+
+header{
+    text-align: center;
+    margin-top: 200px;
+    color:blueviolet;
+}
+
+main{
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,257 @@
+body {
+    font-family: 'Vollkorn', serif;
+    background-color:black;
+    padding-top: 60px;
+    background: linear-gradient(to top, white, #427EB3);
+    padding:0px;
+}
+
+/* Navigaatiopalkki */
+.navbar {
+    background: black; /* Vaalea taustaväri */
+    border-bottom: 1px solid white; /* Reunaviiva */
+    padding: 1rem; /* Lisätty tilaa sisältöön */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigaatiolinkit */
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;  linkkien väri */
+}
+
+.nav-link:hover {
+    color: #0E34A0; /* Tummempi hover-tilassa */
+}
+
+/* Brändin tyyli */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0E34A0;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+body {
+    margin-top: 80px; /* Jotta kiinteä navigaatiopalkki ei peitä sisältöä */
+}
+
+/* Toggleri-tyylit mobiilissa */
+.navbar-toggler {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-toggler {
+        display: inline-block;
+    }
+
+    .navbar-collapse {
+        display: none;
+    }
+}
+
+
+header{
+text-align:center;
+color:#D6EFFF;
+padding:105px;
+background-image: url("kuva2.jpeg");
+        background-size: 100%;
+        background-position:top;
+        background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+body {
+    padding-top: 56px;
+}
+}
+
+.row:nth-child(1) {
+margin-top: 40px;
+margin-bottom: 50px;
+padding-bottom: 50px;
+padding:30px;
+margin:100px;
+text-align:center;
+background: white;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.row:nth-child(2) {
+margin-top: 40px;
+margin-bottom: 50px;
+padding:40px;
+margin:50px;
+text-align:center;
+background-color:#4E5283;
+border-radius:15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.row:nth-child(3) {
+margin-top:40px;
+margin-bottom: 50px;
+text-align:center;
+background:white;
+padding:20px;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.col-md-12{
+border: 2px solid #0E34A0;
+border-radius:15px;
+padding:30px;
+}
+
+.row:nth-child(4) {
+margin-top: 60px;
+margin-bottom: 60px;
+margin-left:150px;
+margin-right:150px;
+padding:50px;
+text-align:center;
+background:#4E5283;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.row:nth-child(5) {
+margin-top: 40px;
+margin-bottom: 50px;
+padding:50px;
+text-align:center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+border-radius:15px;
+background-color:white;
+}
+
+.btn-primary {
+background-color: #563B39;
+color: #fff;
+border: none;
+margin: 50px 50px 50px 50px;}
+}
+
+.list-group {
+list-style: none;
+padding: 0;
+}
+
+.list-group-item {
+background-color: #DDE1E4;
+margin-bottom: 5px;
+color:black;
+border: 2px solid #333;
+}
+
+.pagination {
+display: flex;
+list-style: none;
+padding: 20px;
+justify-content:space-around;
+}
+
+.page-item {
+margin-right: 10px;
+background:#333;
+justify-content:auto;
+}
+
+.page-link {
+color: #black;
+text-decoration: none;
+background-color: #white;
+padding: 5px 10px;
+border: 1px solid #333;
+}
+
+.page-link:hover {
+background-color: #DDE1E4;
+color: white;
+border: 1px solid #333;
+}
+
+.article-image{
+max-width:100%;
+border-radius: 15px;
+}
+
+.card{
+border-radius: 25px;
+padding: 20px;
+margin: auto;
+margin: 0px;
+}
+
+.parent {
+    display: flex; /* Ota flexbox käyttöön */
+    justify-content: center; /* Keskitys vaakasuunnassa */
+    align-items: center; /* Keskitys pystysuunnassa */
+    height: 100vh; /* Vanhemman elementin korkeus (esim. koko näkymä) */
+}
+
+.column-image {
+    max-width: 800px;
+    height: 400px;
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+
+
+footer{
+background-color:#020402;
+text-align:center;
+}
+
+footer p{
+padding:5px;
+margin: auto;
+width: 500px;
+padding-bottom: 50px;
+padding-top: 50px;
+color:white;
+}
+
+.page-item{
+width:150px;
+}
+
+
